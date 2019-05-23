@@ -22,6 +22,9 @@ Upgrade-Insecure-Requests: 1
 
 ![alt tag](https://emreovunc.com/blog/en/WebPort-Reflected-XSS-01.png)
 
+# CVE-2019-XXXX
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXX
+
 # PoC-2
 To exploit vulnerability, someone could use **'http://[server]:8090/log?type="</script><script>alert('xss');</script><script>'** request to impact users who open a maliciously crafted link or third-party web page.
   
