@@ -1,5 +1,5 @@
 # WebPort-v1.19.1-Reflected-XSS
-Reflected XSS in WebPort-v1.19.1 impacts users who open a maliciously crafted link or third-party web page.
+Reflected XSS in [WebPort-v1.19.1](http://webport.se) impacts users who open a maliciously crafted link or third-party web page.
 
 # CVE-2019-XXXX
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXX
